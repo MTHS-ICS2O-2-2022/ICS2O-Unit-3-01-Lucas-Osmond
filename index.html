@@ -34,28 +34,46 @@
         <table>
           <div>
             <p>
-              <img src="./images/trapezoid.svg" alt="triangle" width="18%" height="auto" class="shape" />
+              <img
+                src="./images/trapezoid.svg"
+                alt="triangle"
+                width="18%"
+                height="auto"
+                class="shape"
+              />
             </p>
-            <p>
-              <h2>Formulas</h2>
-              <h3>A = [(a + b) / 2] x h</h3>
-            </p>
+            <h2>Formulas</h2>
+            <h3>A = [(a + b) / 2] x h</h3>
           </div>
         </table>
         <!-- Simple Textfield -->
         <form action="#">
           <p>a base</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="a-base-of-trapezoid" />
-            <label class="mdl-textfield__label" for="a-base-of-trapezoid">a base ...</label>
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="a-base-of-trapezoid"
+            />
+            <label class="mdl-textfield__label" for="a-base-of-trapezoid"
+              >a base ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <form action="#">
           <p>b base</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="b-base-of-trapezoid" />
-            <label class="mdl-textfield__label" for="b-base-of-trapezoid">b base ...</label>
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="b-base-of-trapezoid"
+            />
+            <label class="mdl-textfield__label" for="b-base-of-trapezoid"
+              >b base ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
@@ -63,15 +81,24 @@
         <form action="#">
           <p>Height</p>
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-trapezoid" />
-            <label class="mdl-textfield__label" for="height-of-triangle">height ...</label>
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="height-of-trapezoid"
+            />
+            <label class="mdl-textfield__label" for="height-of-triangle"
+              >height ...</label
+            >
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <br />
         <!-- Raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()">
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="calculate()"
+        >
           Calculate
         </button>
         <br />
@@ -79,6 +106,6 @@
           <div id="area"></div>
         </div>
       </main>
-      </div>
-      </body>
-      </html>
+    </div>
+  </body>
+</html>
