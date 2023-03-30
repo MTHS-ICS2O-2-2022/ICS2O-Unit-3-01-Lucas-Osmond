@@ -2,7 +2,7 @@
 //
 // Created by: Lucas Osmond
 // Created on: March 2023
-// This file contains the JS functions for index.html
+// This file contains the JS functions for index.html 
 
 'use strict'
 /**
