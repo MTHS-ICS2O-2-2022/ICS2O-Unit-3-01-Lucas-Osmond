@@ -21,12 +21,6 @@
     color: red;
 }
 
-.food {
-    float: right;
-    width: 500px;
-    height: auto;
-}
-
 body {
     background-color: paleturquoise;
 }
@@ -38,6 +32,6 @@ body {
 
 .shape {
     float: right;
-    width: 270px;
+    width: 450px;
     height: auto;
 }
